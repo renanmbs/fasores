@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Visualização de Fasores</title>
+        <link href="../css/stylesheet.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="icon" href="./logo.jpeg">
+    </head>
+
+    <body>
+        <h2 class="low">VELOCIDADE ANGULAR CONSTANTE - &#969;1 MAIOR</h2>
+        <article class="circ_esq">
+
+            <svg viewBox='0 0 100 100' xmlns="http://www.w3.org/2000/svg">
+                    <circle fill='transparent' stroke='red' cx='50' cy='50' r='25' /> 
+                    <line stroke='red' x1='50' x2='75' y1='50' y2='50'>
+                    <animateTransform
+                        attributeName='transform'
+                        from='0 50 50'
+                        to='-360 50 50'
+                        dur='8s'
+                        repeatCount='indefinite'
+                        attributeType='xml'
+                        type='rotate' />
+                    </line>
+                    <circle fill='transparent' stroke='darkblue' cx='50' cy='50' r='40' /> 
+                    <line stroke='darkblue' x1='50' x2='90' y1='50' y2='50'>
+                      <animateTransform
+                         attributeName='transform'
+                         from='0 50 50'
+                         to='-360 50 50'
+                         dur='10s'
+                         repeatCount='indefinite'
+                         attributeType='xml'
+                         type='rotate' />
+                    </line>
+                <line stroke='green' stroke-dasharray="5,8" x1='10' x2='94' y1='5' y2='100'></line>
+              </svg>
+        </article>
+
+        <section class="desc">
+            <h4>Descrição:</h4>
+            <p>&#969;1 - Vermelho  |  &#969;2 - Azul</p>
+            <p>&#969;1 > &#969;2</p>
+            <p>&#969;1,&#969;2 = k ∈ {ℕ, ℤ, ℚ, ℝ, ℂ}</p>
+        </section>
+
+        <ul class="side">
+            <a href="/html/circ1.html"><li>Fasor 1</li></a>
+            <a href="/html/circ2.html"><li>Fasor 2</li></a>
+            <a href="/html/circ3.html"><li>Fasor 3</li></a>
+            <a href="/html/circ5.html"><li>Fasor 5</li></a>
+            <a href="../index.html"><li>Página Inicial</li></a>
+        </ul>
+
+
+    </body>
+</html>

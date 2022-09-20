@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    text-align: center;
+    background-color: #0D3B66;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+h1,h2{
+    text-transform: uppercase;
+    color:#FAF0CA;
+    text-align: center;
+    border-bottom: solid 5px #FAF0CA;
+    padding: 1% 0%;
+}
+
+.low{
+    text-transform: none !important;
+}
+
+
+#choice{
+    height: 25rem;
+    width: 20rem;
+    background-color: white;
+    border: solid 3px #FAF0CA;
+    display: grid;
+    align-content: center;
+    margin-top: 10rem;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    padding-left: 50px;
+    padding-right: 50px;
+    row-gap: 20px;
+}
+
+#choice ul{
+    list-style: none;
+}
+
+#choice li{
+    margin: 5% 0;
+    border: solid 3px #0D3B66;
+    box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.3), 0 2px 5px 0 rgba(0, 0, 0, 0.6);
+    row-gap: 100px;
+    padding: 2% 0;
+}
+
+#choice li:hover{
+    box-shadow: 0 0 0;
+}
+
+#choice a{
+    text-decoration: none;
+    color: #0D3B66;
+}
+
+
+
+#cir{
+    display: grid;
+}
+
+
+.circ_esq{
+    background-color: white;
+}
+
+/* .circ_dir{
+    border-bottom: solid 5px #FAF0CA;
+    border-left: solid 5px #FAF0CA;
+    border-top: solid 5px #FAF0CA;
+    background-color: white;
+}
+
+.circ_baix1{
+    border-top: solid 5px #FAF0CA;
+    background-color: white;
+}
+
+.circ_baix2{
+    border-left: solid 5px #FAF0CA;
+    border-top: solid 5px #FAF0CA;
+    grid-area: 3/2/3/2;
+    background-color: white;
+} */
+
+.desc{
+    color:#FAF0CA;
+    text-align: center;
+    margin-top: 0.5%;
+}
+
+.desc h4{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.desc p{
+    margin: 0.5% 0;
+}
+
+.side li{
+    display: inline;  
+    list-style: none;
+    margin: 0 10px;
+}
+
+.side a{
+    text-decoration: none;
+    color: #FAF0CA;
+}
+
+.side a:hover{
+    text-decoration: underline;
+    color: #FAF0CA;
+}
+
+svg{
+    height: 37rem;
+    width: 40rem;
+}
+
+svg:hover{
+    transform: scale(1.05);
+}
+
+.opt1:hover{
+    text-decoration:underline red;
+    text-shadow: 0px 0px 10px red;
+}
+
+.opt2:hover{
+    text-decoration:underline blue;
+    text-shadow: 0px 0px 10px blue;
+}
